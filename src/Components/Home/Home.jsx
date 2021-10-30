@@ -1,11 +1,14 @@
 import React from "react";
+import Order from "../Order/Order";
 import Gallery from "./Gallery";
+import Hero from "./Hero";
 import TravelNews from "./TravelNews";
 
 const Home = () => {
   return (
     <div>
-      <h1>home</h1>
+      <Hero />
+      <Order />
       <TravelNews />
       <Gallery />
     </div>

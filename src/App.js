@@ -5,7 +5,6 @@ import Home from "./Components/Home/Home";
 function App() {
   return (
     <div className="App">
-      <h2>azad travel</h2>
       <Home />
       <Footer />
     </div>
