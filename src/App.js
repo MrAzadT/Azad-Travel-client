@@ -1,21 +1,26 @@
-import Footer from "./Components/Footer/Footer";
-import Home from "./Components/Home/Home";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
-import Booking from "./Components/Home/Booking";
-import NotFound from "./Components/NotFound/NotFound";
+import Footer from './Components/Footer/Footer'
+import Home from './Components/Home/Home'
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import Booking from './Components/Home/Booking'
+import NotFound from './Components/NotFound/NotFound'
 
 function App() {
   return (
     <BrowserRouter>
-      <Home />
       <Switch>
-        <Route exact path="/booking/:bookingId">
+        <Route exact path='/'>
+          <Home />
+        </Route>
+        <Route exact path='/booking/:bookingId'>
           <Booking />
         </Route>
+        <Route path='*'>
+          <NotFound />
+        </Route>
+        <Footer />
       </Switch>
-      <Footer />
     </BrowserRouter>
-  );
+  )
 }
 
-export default App;
+export default App

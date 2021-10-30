@@ -1,3 +1,4 @@
+import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
@@ -5,10 +6,18 @@ const Service = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch(`http://localhost:4000/myData`)
-      .then((res) => res.json())
-      .then((data) => setData(data));
+    axios
+      .get("http://localhost:4000/myData")
+      .then((res) => {
+        console.log(res.data);
+        setData(res.data);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
   }, []);
+
+  if (data === []) return "Loading...";
 
   return (
     <div>
@@ -38,6 +47,7 @@ const Service = () => {
                 <p className="font-normal text-gray-700 mb-2">
                   Time : {item.day}
                 </p>
+
                 <Link to={`/booking/${item._id}`}>
                   <button className="text-white bg-primary hover:bg-secondary focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-3 py-2 text-center inline-flex items-center">
                     Booking Now
