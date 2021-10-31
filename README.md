@@ -21,6 +21,8 @@ Rating : 4.5
 Country : India
 
 Time : 3 Days 2 Night
+
+
 3 : Dhaka
 Starting from $146
 
