@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Nav = () => {
   return (
-    <nav className="flex items-center bg-gray-600 justify-between flex-wrap bg-teal-500 p-6">
+    <nav className="flex items-center bg-gray-800 justify-between flex-wrap bg-teal-500 p-6">
       <div className="flex items-center flex-shrink-0 text-white mr-6">
         <span className="font-semibold text-3xl tracking-tight">
           Azad Travel

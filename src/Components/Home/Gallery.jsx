@@ -15,9 +15,9 @@ const Gallery = () => {
                 <img
                   alt="gallery"
                   className="absolute rounded-lg inset-0 w-full h-full object-cover object-center"
-                  src="https://res.cloudinary.com/abidazad/image/upload/v1635508524/pexels-olya-kobruseva-5227440_fwzxoz.jpg"
+                  src="https://res.cloudinary.com/abidazad/image/upload/v1635579499/pexels-timo-volz-1842332_yzis70.jpg"
                 />
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                <div className="px-8 py-10 relative z-10 w-full border-4  border-gray-200 bg-white opacity-0 hover:opacity-80 rounded-lg">
                   <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
                     THE SUBTITLE
                   </h2>
@@ -36,9 +36,9 @@ const Gallery = () => {
                 <img
                   alt="gallery"
                   className="absolute rounded-lg inset-0 w-full h-full object-cover object-center"
-                  src="https://res.cloudinary.com/abidazad/image/upload/v1635508525/pexels-suzukii-xingfu-872831_hoy0ad.jpg"
+                  src="https://res.cloudinary.com/abidazad/image/upload/v1635570354/yunnan-g451c9774f_1920_wsjbji.jpg"
                 />
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-80 rounded-lg">
                   <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
                     THE SUBTITLE
                   </h2>
@@ -59,7 +59,7 @@ const Gallery = () => {
                   className="absolute rounded-lg inset-0 w-full h-full object-cover object-center"
                   src="https://res.cloudinary.com/abidazad/image/upload/v1635508506/pexels-adi-perets-4125993_vnedjb.jpg"
                 />
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-80 rounded-lg">
                   <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
                     THE SUBTITLE
                   </h2>
@@ -80,7 +80,7 @@ const Gallery = () => {
                   className="absolute rounded-lg inset-0 w-full h-full object-cover object-center"
                   src="https://res.cloudinary.com/abidazad/image/upload/v1635508507/pexels-pixabay-221457_esnkdo.jpg"
                 />
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-80 rounded-lg">
                   <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
                     THE SUBTITLE
                   </h2>
@@ -101,7 +101,7 @@ const Gallery = () => {
                   className="absolute rounded-lg inset-0 w-full h-full object-cover object-center"
                   src="https://res.cloudinary.com/abidazad/image/upload/v1635508515/pexels-gabriela-palai-507410_qeqq52.jpg"
                 />
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-80 rounded-lg">
                   <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
                     THE SUBTITLE
                   </h2>
@@ -120,9 +120,9 @@ const Gallery = () => {
                 <img
                   alt="gallery"
                   className="absolute rounded-lg inset-0 w-full h-full object-cover object-center"
-                  src="https://res.cloudinary.com/abidazad/image/upload/v1635508525/pexels-suzukii-xingfu-872831_hoy0ad.jpg"
+                  src="https://res.cloudinary.com/abidazad/image/upload/v1635579500/pexels-rushow-khan-122107_rjufq4.jpg"
                 />
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-80 rounded-lg">
                   <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
                     THE SUBTITLE
                   </h2>

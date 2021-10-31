@@ -6,154 +6,142 @@ const Footer = () => {
       <div className="max-w-6xl m-auto text-gray-800 flex flex-wrap justify-left">
         <div className="p-5 w-1/2 sm:w-4/12 md:w-3/12">
           <div className="text-xs uppercase text-gray-400 font-medium mb-6">
-            Getting Started
+            Explore
           </div>
 
           <a
             href="/"
             className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
           >
-            Installation
+            Cities
           </a>
           <a
             href="/"
             className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
           >
-            Release Notes
+            Airports
           </a>
           <a
             href="/"
             className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
           >
-            Upgrade Guide
+            Countries / Regions
           </a>
           <a
             href="/"
             className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
           >
-            Using with Preprocessors
+            Airlines
           </a>
           <a
             href="/"
             className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
           >
-            Optimizing for Production
+            Flights
           </a>
           <a
             href="/"
             className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
           >
-            Browser Support
+            Hotels
           </a>
           <a
             href="/"
             className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
           >
-            IntelliSense
+            Car hire
           </a>
         </div>
 
         <div className="p-5 w-1/2 sm:w-4/12 md:w-3/12">
           <div className="text-xs uppercase text-gray-400 font-medium mb-6">
-            Core Concepts
+            Partners
           </div>
 
           <a
             href="/"
             className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
           >
-            Utility-First
+            Work with us
           </a>
           <a
             href="/"
             className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
           >
-            Responsive Design
+            Advertise with us
           </a>
           <a
             href="/"
             className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
           >
-            Hover, Focus, & Other States
+            Travel Insight
           </a>
           <a
             href="/"
             className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
           >
-            Dark Mode
+            Affiliates
           </a>
           <a
             href="/"
             className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
           >
-            Adding Base Styles
-          </a>
-          <a
-            href="/"
-            className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
-          >
-            Extracting Components
-          </a>
-          <a
-            href="/"
-            className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
-          >
-            Adding New Utilities
+            Travel APIs
           </a>
         </div>
 
         <div className="p-5 w-1/2 sm:w-4/12 md:w-3/12">
           <div className="text-xs uppercase text-gray-400 font-medium mb-6">
-            Customization
+            Company
           </div>
 
           <a
             href="/"
             className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
           >
-            Configuration
+            Company
           </a>
           <a
             href="/"
             className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
           >
-            Theme Configuration
+            Why Skyscanner?
           </a>
           <a
             href="/"
             className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
           >
-            Breakpoints
+            Media
           </a>
           <a
             href="/"
             className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
           >
-            Customizing Colors
+            Our people
           </a>
           <a
             href="/"
             className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
           >
-            Customizing Spacing
+            Sustainability
           </a>
           <a
             href="/"
             className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
           >
-            Configuring Variants
+            Brand story
           </a>
           <a
             href="/"
             className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
           >
-            Plugins
+            Cookie policy
           </a>
         </div>
 
         <div className="p-5 w-1/2 sm:w-4/12 md:w-3/12">
           <div className="text-xs uppercase text-gray-400 font-medium mb-6">
-            Community
+            Help
           </div>
 
           <a
@@ -190,25 +178,7 @@ const Footer = () => {
                     flex-col md:flex-row max-w-6xl"
         >
           <div className="mt-2">
-            © Copyright 1998-year. All Rights Reserved.
-          </div>
-
-          <div className="md:flex-auto md:flex-row-reverse mt-2 flex-row flex">
-            <a href="/" className="w-6 mx-1">
-              <i className="uil uil-facebook-f"></i>
-            </a>
-            <a href="/" className="w-6 mx-1">
-              <i className="uil uil-twitter-alt"></i>
-            </a>
-            <a href="/" className="w-6 mx-1">
-              <i className="uil uil-youtube"></i>
-            </a>
-            <a href="/" className="w-6 mx-1">
-              <i className="uil uil-linkedin"></i>
-            </a>
-            <a href="/" className="w-6 mx-1">
-              <i className="uil uil-instagram"></i>
-            </a>
+            azad-travel © Copyright 2021-year. All Rights Reserved.
           </div>
         </div>
       </div>

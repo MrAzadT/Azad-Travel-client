@@ -21,7 +21,8 @@ const Service = () => {
 
   return (
     <div>
-      <h1>service</h1>
+      <h1 className="text-center text-4xl mt-16">Our Service</h1>
+      <hr className="border-2 mt-8 border-primary bg-primary m-auto w-40" />
       <div className="grid xl:grid-cols-3 gap-10 m-auto mt-14 md:grid-cols-2 grid-cols-1 max-w-6xl">
         {data.map((item) => (
           <div key={item.Key} className="max-w-lg mx-auto">
