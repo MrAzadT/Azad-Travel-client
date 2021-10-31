@@ -1,15 +1,21 @@
-import React, { useContext } from 'react'
+import React, { useContext, useEffect } from 'react'
 import { useHistory, useLocation } from 'react-router-dom'
 import { AuthContext } from '../Context/AuthProvider'
 import { googleSignIn } from '../Firebase/functions'
 
 const Login = () => {
-  const { setCurrentUser } = useContext(AuthContext)
+  const { currentUser, setCurrentUser } = useContext(AuthContext)
 
   let history = useHistory()
   let location = useLocation()
 
   let { from } = location.state || { from: { pathname: '/' } }
+
+  useEffect(() => {
+    if (currentUser) {
+      history.replace(from)
+    }
+  }, [history, currentUser, from])
 
   const handleGoogleLogin = () => {
     googleSignIn({ setCurrentUser, history, from })

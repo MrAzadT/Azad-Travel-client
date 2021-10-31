@@ -4,7 +4,7 @@ const Gallery = () => {
   return (
     <>
       <h1 className=" text-center sm:text-4xl text-5xl  font-bold title-font mb-2 text-gray-900">
-        Discover deals in every city
+        POPULAR DESTINATIONS
       </h1>
 
       <section className="text-gray-600 body-font">
@@ -19,14 +19,16 @@ const Gallery = () => {
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4  border-gray-200 bg-white opacity-0 hover:opacity-80 rounded-lg">
                   <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
-                    THE SUBTITLE
+                    Las Vegas
                   </h2>
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-                    Shooting Stars
+                    United States
                   </h1>
                   <p className="leading-relaxed">
-                    Photo booth fam kinfolk cold-pressed sriracha leggings
-                    jianbing microdosing tousled waistcoat.
+                    Las Vegas, often known simply as Vegas, is the 26th-most
+                    populous city in the United States, the most populous city
+                    in the state of Nevada, and the county seat of Clark County.
+                    The city anchors
                   </p>
                 </div>
               </div>
@@ -40,14 +42,16 @@ const Gallery = () => {
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-80 rounded-lg">
                   <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
-                    THE SUBTITLE
+                    Hawaii
                   </h2>
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-                    The Catalyzer
+                    North America
                   </h1>
                   <p className="leading-relaxed">
-                    Photo booth fam kinfolk cold-pressed sriracha leggings
-                    jianbing microdosing tousled waistcoat.
+                    Hawaii is a state in the Western United States located in
+                    the Pacific Ocean about 2,000 miles from the U.S. mainland.
+                    It is the only state outside North America, the only state
+                    that is an archipelago,
                   </p>
                 </div>
               </div>
@@ -61,14 +65,16 @@ const Gallery = () => {
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-80 rounded-lg">
                   <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
-                    THE SUBTITLE
+                    Taj Mahal
                   </h2>
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-                    The 400 Blows
+                    India
                   </h1>
                   <p className="leading-relaxed">
-                    Photo booth fam kinfolk cold-pressed sriracha leggings
-                    jianbing microdosing tousled waistcoat.
+                    Taj Mahal Bangladesh is a full-scale copy of the original
+                    Taj Mahal located 16 kilometres east of the Bangladeshi
+                    capital, Dhaka in Sonargaon. Unlike the original, work on
+                    the building took only five years
                   </p>
                 </div>
               </div>
@@ -82,14 +88,16 @@ const Gallery = () => {
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-80 rounded-lg">
                   <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
-                    THE SUBTITLE
+                    Riviera Maya
                   </h2>
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-                    Neptune
+                    Mexico
                   </h1>
                   <p className="leading-relaxed">
-                    Photo booth fam kinfolk cold-pressed sriracha leggings
-                    jianbing microdosing tousled waistcoat.
+                    The Riviera Maya is a stretch of Caribbean coastline on
+                    Mexico’s northeastern Yucatán Peninsula. It's known for its
+                    numerous all-inclusive resorts, such as those in the town of
+                    the more areas
                   </p>
                 </div>
               </div>
@@ -103,14 +111,16 @@ const Gallery = () => {
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-80 rounded-lg">
                   <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
-                    THE SUBTITLE
+                    Cancun
                   </h2>
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-                    Holden Caulfield
+                    Mexico
                   </h1>
                   <p className="leading-relaxed">
-                    Photo booth fam kinfolk cold-pressed sriracha leggings
-                    jianbing microdosing tousled waistcoat.
+                    Cancún, a Mexican city on the Yucatán Peninsula bordering
+                    the Caribbean Sea, is known for its beaches, numerous
+                    resorts and nightlife. It’s composed of 2 distinct areas
+                    numerous
                   </p>
                 </div>
               </div>
@@ -124,14 +134,16 @@ const Gallery = () => {
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-80 rounded-lg">
                   <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
-                    THE SUBTITLE
+                    Fort Lauderdale
                   </h2>
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-                    Alper Kamu
+                    Florida
                   </h1>
                   <p className="leading-relaxed">
-                    Photo booth fam kinfolk cold-pressed sriracha leggings
-                    jianbing microdosing tousled waistcoat.
+                    The Riviera Maya is a stretch of Caribbean coastline on
+                    Mexico’s northeastern Yucatán Peninsula. It's known for its
+                    numerous all-inclusive resorts, such as those in the town of
+                    Playa del Carmen,
                   </p>
                 </div>
               </div>
