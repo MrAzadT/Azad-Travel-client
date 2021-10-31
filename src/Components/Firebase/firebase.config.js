@@ -1,19 +1,15 @@
-import { initializeApp } from 'firebase/app'
-import 'firebase/auth'
+import { initializeApp } from "firebase/app";
+import "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyDCV07gBVRa4fvkuIPHbeW-8iGsuCIaiog',
-  authDomain: 'azad-travel.firebaseapp.com',
-  projectId: 'azad-travel',
-  storageBucket: 'azad-travel.appspot.com',
-  messagingSenderId: '1006136617843',
-  appId: '1:1006136617843:web:1484105da97ffe7e48b306',
-}
+  apiKey: "AIzaSyDCV07gBVRa4fvkuIPHbeW-8iGsuCIaiog",
+  authDomain: "azad-travel.firebaseapp.com",
+  projectId: "azad-travel",
+  storageBucket: "azad-travel.appspot.com",
+  messagingSenderId: "1006136617843",
+  appId: "1:1006136617843:web:1484105da97ffe7e48b306",
+};
 
-// Initialize Firebase
-const app = initializeApp(firebaseConfig)
+const app = initializeApp(firebaseConfig);
 
-// Login Providers
-// const googleProvider = new firebase.auth.GoogleAuthProvider()
-
-export default app
+export default app;

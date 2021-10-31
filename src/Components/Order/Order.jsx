@@ -2,7 +2,6 @@ import axios from "axios";
 import React, { useContext } from "react";
 import { useForm } from "react-hook-form";
 import { AuthContext } from "../Context/AuthProvider";
-import Booking from "./../Home/Booking";
 
 const Order = () => {
   const { currentUser } = useContext(AuthContext);

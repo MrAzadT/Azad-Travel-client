@@ -45,7 +45,7 @@ const MyOrder = () => {
         >
           <h1 key={item._id}>Name : {item.name}</h1>
           <h1>Email : {item.email}</h1>
-          <h1>Plase : {item.Place}</h1>
+          <h1>Place : {item.Place}</h1>
           <h1>Phone : {item.phone}</h1>
           <button
             className="py-4 px-6  mt-7 text-lg font-medium text-white uppercase transition-colors duration-200 transform bg-blue-600 rounded-md lg:w-auto hover:bg-blue-500 focus:outline-none focus:bg-blue-500"
