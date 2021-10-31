@@ -5,11 +5,14 @@ import Booking from "./Components/Home/Booking";
 import NotFound from "./Components/NotFound/NotFound";
 import Login from "./Components/Login/Login";
 import AuthProvider from "./Components/Context/AuthProvider";
+import MyOrder from "./Components/MyOrder/MyOrder";
+import Nav from "./Components/Nav/Nav";
 
 function App() {
   return (
     <AuthProvider>
       <BrowserRouter>
+        <Nav />
         <Switch>
           <Route exact path="/">
             <Home />
@@ -20,6 +23,10 @@ function App() {
           <Route exact path="/login">
             <Login />
           </Route>
+          <Route exact path="/myOrder">
+            <MyOrder />
+          </Route>
+          <Route exact path="/allOrder"></Route>
           <Route exact path="/booking/:bookingId">
             <Booking />
           </Route>
@@ -27,8 +34,8 @@ function App() {
           <Route path="*">
             <NotFound />
           </Route>
-          <Footer />
         </Switch>
+        <Footer />
       </BrowserRouter>
     </AuthProvider>
   );

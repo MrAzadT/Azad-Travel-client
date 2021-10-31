@@ -35,6 +35,12 @@ const Order = () => {
         placeholder="email"
         {...register("email", { required: true })}
       />
+      <input
+        className="mt-6 p-3 border-2  border-gray-500 rounded-lg "
+        required
+        placeholder="Place"
+        {...register("Place", { required: true })}
+      />
       <br />
       <input
         className="mt-6 p-3 border-2  border-gray-500 rounded-lg "

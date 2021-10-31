@@ -1,12 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import Nav from "./Nav";
 
 const Hero = () => {
   return (
     <header>
-      <Nav />
-
       <div
         className="w-full bg-center bg-cover h-screen "
         style={{

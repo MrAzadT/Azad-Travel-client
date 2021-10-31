@@ -7,9 +7,9 @@ const TravelNews = () => {
         <div className="flex flex-wrap w-full mb-4 p-4">
           <div className="w-full mb-6 lg:mb-0">
             <h1 className="sm:text-4xl text-5xl  font-bold title-font mb-2 text-gray-900">
-              News
+              Travel News
             </h1>
-            <div className="h-1 w-20 bg-indigo-500 rounded"></div>
+            <div className="h-1 w-52 bg-indigo-500 rounded"></div>
           </div>
         </div>
         <div className="flex flex-wrap -m-4">
@@ -21,14 +21,16 @@ const TravelNews = () => {
                 src="https://res.cloudinary.com/abidazad/image/upload/v1635508528/pexels-alexandr-podvalny-2166553_utgnvc.jpg"
               />
               <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">
-                SUBTITLE
+                Azad Travel
               </h3>
               <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
-                Chichen Itza
+                TRAVEL NEWS, BRITAIN
               </h2>
               <p className="leading-relaxed text-base">
-                Fingerstache flexitarian street art 8-bit waistcoat. Distillery
-                hexagon disrupt edison bulbche.
+                UK removes all the countries from its COVID-19 'red list' In the
+                latest COVID travel development, the UK has removed all the
+                countries from its COVID-19 red list. The British government
+                on...
               </p>
             </div>
           </div>
@@ -40,14 +42,16 @@ const TravelNews = () => {
                 src="https://res.cloudinary.com/abidazad/image/upload/v1635508525/pexels-suzukii-xingfu-872831_hoy0ad.jpg"
               />
               <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">
-                SUBTITLE
+                Azad Travel
               </h3>
               <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
-                Colosseum Roma
+                TRAVEL NEWS, INDIA
               </h2>
               <p className="leading-relaxed text-base">
-                Fingerstache flexitarian street art 8-bit waistcoat. Distillery
-                hexagon disrupt edison bulbche.
+                India extends ban on scheduled international flights till
+                November 30 Earlier last month, the DGCA extended the ban till
+                October 31. Like the previous order, the DGCA will not be
+                restricting internati...
               </p>
             </div>
           </div>
@@ -59,14 +63,16 @@ const TravelNews = () => {
                 src="https://res.cloudinary.com/abidazad/image/upload/v1635508524/pexels-olya-kobruseva-5227440_fwzxoz.jpg"
               />
               <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">
-                SUBTITLE
+                Azad Travel
               </h3>
               <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
-                Great Pyramid of Giza
+                TRAVEL NEWS, WORLD
               </h2>
               <p className="leading-relaxed text-base">
-                Fingerstache flexitarian street art 8-bit waistcoat. Distillery
-                hexagon disrupt edison bulbche.
+                Direct flights between Delhi-Sydney to start from November 15
+                India’s national-carrier Air India has announced plans to resume
+                direct, non-stop flights between Delhi and Sydney from November
+                1...
               </p>
             </div>
           </div>
@@ -78,14 +84,16 @@ const TravelNews = () => {
                 src="https://res.cloudinary.com/abidazad/image/upload/v1632837717/bird_z84bma.jpg"
               />
               <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">
-                SUBTITLE
+                Azad Travel
               </h3>
               <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
-                San Francisco
+                TRAVEL NEWS, ITALY
               </h2>
               <p className="leading-relaxed text-base">
-                Fingerstache flexitarian street art 8-bit waistcoat. Distillery
-                hexagon disrupt edison bulbche.
+                Italy allows essential purpose travel from India, Bangladesh,
+                Brazil, and Sri Lanka Referring to this, the Italian Ministry of
+                Foreign Affairs and International Cooperation issued a statement
+                stating that since Oct...
               </p>
             </div>
           </div>
@@ -97,14 +105,16 @@ const TravelNews = () => {
                 src="https://res.cloudinary.com/abidazad/image/upload/v1632834436/bg_xikpkv.jpg"
               />
               <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">
-                SUBTITLE
+                Azad Travel
               </h3>
               <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
-                San Francisco
+                TRAVEL NEWS, OMAN
               </h2>
               <p className="leading-relaxed text-base">
-                Fingerstache flexitarian street art 8-bit waistcoat. Distillery
-                hexagon disrupt edison bulbche.
+                Oman recognises India-made Covaxin for travel; no quarantine
+                required In a huge COVID travel development, the Government of
+                the Sultanate of Oman has recognised India-made Covaxin shots
+                for travel wit..
               </p>
             </div>
           </div>
@@ -116,14 +126,16 @@ const TravelNews = () => {
                 src="https://res.cloudinary.com/abidazad/image/upload/v1632840872/img-2_tpg1kf.jpg"
               />
               <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">
-                SUBTITLE
+                Azad Travel
               </h3>
               <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
-                San Francisco
+                TRAVEL NEWS, CAMBODIA
               </h2>
               <p className="leading-relaxed text-base">
-                Fingerstache flexitarian street art 8-bit waistcoat. Distillery
-                hexagon disrupt edison bulbche.
+                Cambodia to reopen to international visitors in phased manner
+                Reports have it that the COVID pandemic and COVID-related travel
+                restrictions have put brakes on Cambodia's burgeoning tourism
+                ind...
               </p>
             </div>
           </div>

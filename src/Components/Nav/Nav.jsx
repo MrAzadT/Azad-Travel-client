@@ -24,13 +24,19 @@ const Nav = () => {
       <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
         <div className="text-sm lg:flex-grow">
           <Link
-            to="/"
+            to="/home"
+            className="block text-lg mt-4 lg:inline-block lg:mt-0 text-white text-teal-200 hover:text-white mr-4"
+          >
+            Home
+          </Link>
+          <Link
+            to="/myOrder"
             className="block text-lg mt-4 lg:inline-block lg:mt-0 text-white text-teal-200 hover:text-white mr-4"
           >
             My Order
           </Link>
           <Link
-            to="/"
+            to="/allOrder"
             className="block mt-4 text-lg lg:inline-block text-white lg:mt-0 text-teal-200 hover:text-white mr-4"
           >
             Manage All Order
