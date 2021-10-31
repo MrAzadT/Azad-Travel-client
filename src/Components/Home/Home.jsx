@@ -1,5 +1,4 @@
 import React from "react";
-import Order from "../Order/Order";
 import Gallery from "./Gallery";
 import Hero from "./Hero";
 import Service from "./Service";
