@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
+import { logout } from "../Firebase/functions";
+import { AuthContext } from "./../Context/AuthProvider";
 
 const Nav = () => {
+  const { currentUser } = useContext(AuthContext);
   return (
     <nav className="flex items-center bg-gray-800 justify-between flex-wrap bg-teal-500 p-6">
       <div className="flex items-center flex-shrink-0 text-white mr-6">
@@ -41,18 +44,22 @@ const Nav = () => {
           >
             Manage All Order
           </Link>
-          <Link
-            to="/login"
-            className="block mt-4 text-lg lg:inline-block text-white lg:mt-0 text-teal-200 hover:text-white"
-          >
-            Login
-          </Link>
-          <Link
-            to="/login"
-            className="block mt-4 ml-3 text-lg lg:inline-block text-white lg:mt-0 text-teal-200 hover:text-white"
-          >
-            LogOut
-          </Link>
+
+          {currentUser.email ? (
+            <Link
+              onClick={() => logout()}
+              className="block mt-4 ml-3 text-lg lg:inline-block text-white lg:mt-0 text-teal-200 hover:text-white"
+            >
+              LogOut
+            </Link>
+          ) : (
+            <Link
+              to="/login"
+              className="block mt-4 text-lg lg:inline-block text-white lg:mt-0 text-teal-200 hover:text-white"
+            >
+              Login
+            </Link>
+          )}
         </div>
       </div>
     </nav>
