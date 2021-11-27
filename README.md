@@ -1,6 +1,18 @@
-Azad Travel-client
+Azad Travel
+
+Client Side Code
  
  link  : https://azad-travel.web.app/home 
+ 
+ Technology:  React.js, Node.js, Express.js, Firebase, MongoDB, 
+ Tailwind
+ 
+•	MERN stack project
+
+•	Travel and booking related website
+
+•	Responsive and unique design 
+
  
  Our Service 
  
