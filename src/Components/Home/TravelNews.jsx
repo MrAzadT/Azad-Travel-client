@@ -76,69 +76,6 @@ const TravelNews = () => {
               </p>
             </div>
           </div>
-          <div className="xl:w-1/3 md:w-1/2 p-4">
-            <div className="bg-white p-6 rounded-lg">
-              <img
-                alt=""
-                className="lg:h-60 xl:h-56 md:h-64 sm:h-72 xs:h-72 h-72 rounded-lg w-full object-cover object-center mb-6"
-                src="https://res.cloudinary.com/abidazad/image/upload/v1632837717/bird_z84bma.jpg"
-              />
-              <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">
-                Azad Travel
-              </h3>
-              <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
-                TRAVEL NEWS, ITALY
-              </h2>
-              <p className="leading-relaxed text-base">
-                Italy allows essential purpose travel from India, Bangladesh,
-                Brazil, and Sri Lanka Referring to this, the Italian Ministry of
-                Foreign Affairs and International Cooperation issued a statement
-                stating that since Oct...
-              </p>
-            </div>
-          </div>
-          <div className="xl:w-1/3 md:w-1/2 p-4">
-            <div className="bg-white p-6 rounded-lg">
-              <img
-                alt=""
-                className="lg:h-60 xl:h-56 md:h-64 sm:h-72 xs:h-72 h-72 rounded-lg w-full object-cover object-center mb-6"
-                src="https://res.cloudinary.com/abidazad/image/upload/v1632834436/bg_xikpkv.jpg"
-              />
-              <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">
-                Azad Travel
-              </h3>
-              <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
-                TRAVEL NEWS, OMAN
-              </h2>
-              <p className="leading-relaxed text-base">
-                Oman recognises India-made Covaxin for travel; no quarantine
-                required In a huge COVID travel development, the Government of
-                the Sultanate of Oman has recognised India-made Covaxin shots
-                for travel wit..
-              </p>
-            </div>
-          </div>
-          <div className="xl:w-1/3 md:w-1/2 p-4">
-            <div className="bg-white p-6 rounded-lg">
-              <img
-                alt=""
-                className="lg:h-60 xl:h-56 md:h-64 sm:h-72 xs:h-72 h-72 rounded-lg w-full object-cover object-center mb-6"
-                src="https://res.cloudinary.com/abidazad/image/upload/v1632840872/img-2_tpg1kf.jpg"
-              />
-              <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">
-                Azad Travel
-              </h3>
-              <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
-                TRAVEL NEWS, CAMBODIA
-              </h2>
-              <p className="leading-relaxed text-base">
-                Cambodia to reopen to international visitors in phased manner
-                Reports have it that the COVID pandemic and COVID-related travel
-                restrictions have put brakes on Cambodia's burgeoning tourism
-                ind...
-              </p>
-            </div>
-          </div>
         </div>
       </div>
     </section>
